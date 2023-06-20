@@ -11,6 +11,8 @@ setup(
     long_description_content_type='text/markdown',
     packages=[
         'genetics'
+        'genetics.api',
+        'genetics.helpers',
     ],
     install_requires=open('requirements.txt').read().splitlines(),
 
