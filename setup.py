@@ -10,7 +10,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     packages=[
-        'genetics'
+        'genetics',
         'genetics.api',
         'genetics.helpers',
     ],
